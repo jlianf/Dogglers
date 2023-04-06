@@ -1,0 +1,8 @@
+C:\Users\jalia\AndroidStudioProjects\android-basics-kotlin-dogglers-app-main\app\src\main\java\com\example\dogglers\const\Layout.kt
+C:\Users\jalia\AndroidStudioProjects\android-basics-kotlin-dogglers-app-main\app\src\main\java\com\example\dogglers\MainActivity.kt
+C:\Users\jalia\AndroidStudioProjects\android-basics-kotlin-dogglers-app-main\app\src\main\java\com\example\dogglers\model\Dog.kt
+C:\Users\jalia\AndroidStudioProjects\android-basics-kotlin-dogglers-app-main\app\src\main\java\com\example\dogglers\data\DataSource.kt
+C:\Users\jalia\AndroidStudioProjects\android-basics-kotlin-dogglers-app-main\app\src\main\java\com\example\dogglers\HorizontalListActivity.kt
+C:\Users\jalia\AndroidStudioProjects\android-basics-kotlin-dogglers-app-main\app\src\main\java\com\example\dogglers\adapter\DogCardAdapter.kt
+C:\Users\jalia\AndroidStudioProjects\android-basics-kotlin-dogglers-app-main\app\src\main\java\com\example\dogglers\GridListActivity.kt
+C:\Users\jalia\AndroidStudioProjects\android-basics-kotlin-dogglers-app-main\app\src\main\java\com\example\dogglers\VerticalListActivity.kt
