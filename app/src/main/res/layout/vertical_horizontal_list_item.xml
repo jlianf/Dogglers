@@ -42,48 +42,47 @@
                 The dog's age
                 The dog's hobbies-->
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@+id/iv_vertical_horizontal"
-            android:layout_width="0dp"
+            android:id="@+id/image_view"
+            android:layout_width="match_parent"
             android:layout_height="194dp"
-            android:layout_marginTop="8dp"
-            android:src="@drawable/tzeitel"
             android:scaleType="centerCrop"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@drawable/tzeitel" />
 
         <TextView
-            android:id="@+id/tv_name_dog_vertical_horizintal"
+            android:id="@+id/tv_name_dog"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
-            android:text="Tzaitel"
-            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/iv_vertical_horizontal" />
+            app:layout_constraintTop_toBottomOf="@+id/image_view"
+            tools:text="Tzaitel" />
 
         <TextView
-            android:id="@+id/tv_age_dog_vertical_horizontal"
+            android:id="@+id/tv_age_dog"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
             android:layout_marginTop="16dp"
             android:layout_marginBottom="8dp"
-            android:text="@string/dog_age"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tv_name_dog_vertical_horizintal" />
+            app:layout_constraintStart_toStartOf="@id/tv_name_dog"
+            app:layout_constraintTop_toBottomOf="@id/tv_name_dog"
+            tools:text="@string/dog_age" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="8dp"
-            android:text="@string/dog_hobbies"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tv_name_dog_vertical_horizintal" />
+            app:layout_constraintTop_toBottomOf="@id/tv_name_dog"
+            tools:text="@string/dog_hobbies" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
