@@ -49,7 +49,6 @@ class DogCardAdapter(
         val hobiesDog : TextView? = view?.findViewById(R.id.tv_hobies_dog)
 
         }
-    }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): DogCardViewHolder {
         // TODO: Use a conditional to determine the layout type and set it accordingly.
@@ -66,7 +65,7 @@ class DogCardAdapter(
         return DogCardViewHolder(adapterLayout)
     }
 
-    override fun getItemCount(): Int = DataSource.dogs.size// TODO: return the size of the data set instead of 0
+    override fun getItemCount(): Int = DataSource.dogs.size // TODO: return the size of the data set instead of 0
 
     override fun onBindViewHolder(holder: DogCardViewHolder, position: Int) {
         // TODO: Get the data at the current position
@@ -89,3 +88,4 @@ class DogCardAdapter(
         //  resources?.getString(R.string.dog_hobbies, dog.hobbies)
     }
 }
+
